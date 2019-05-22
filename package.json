@@ -1,0 +1,29 @@
+{
+  "name": "eslint-plugin-aog-linter",
+  "version": "0.0.0",
+  "description": "Linter for Actions on Google response generation.",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Google Inc.",
+  "scripts": {
+    "test-unit": "NODE_ENV=prod mocha ./tests/lib/unit/**/*.js"
+  },
+  "dependencies": {
+    "winston": "^3.2.1",
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint-scope": "^4.0.3",
+    "espree": "^5.0.1",
+    "lodash.last": "^3.0.0",
+    "mocha": "^6.1.4"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "Apache-2.0"
+}

@@ -1,0 +1,14 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "script"
+  },
+  "extends": ["eslint:recommended", "google"],
+  "rules": {
+  },
+  "globals": {
+    "console": "readable",
+    "require": "readable",
+    "module": "readable"
+  }
+}
