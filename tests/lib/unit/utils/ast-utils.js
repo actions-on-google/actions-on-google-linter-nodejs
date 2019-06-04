@@ -78,7 +78,7 @@ describe('findNodeDef', function() {
   });
 });
 
-describe('findVariableNodeValue', function () {
+describe('findVariableNodeValue', function() {
   it('Variable defined in the intent handler scope', function() {
     const code = `
       app.intent('intent1', (conv) => {
@@ -96,7 +96,7 @@ describe('findVariableNodeValue', function () {
         ast.body[0].expression.arguments[1], // lambda scope
         DEFAULT_CONFIG);
     expect(findVariableNodeValue(intentHandlerScope, a)).to
-         .have.property('value', 3);
+        .have.property('value', 3);
   });
   it('Variable defined in the global scope', function() {
     const code = `
