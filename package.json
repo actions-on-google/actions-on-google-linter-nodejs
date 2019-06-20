@@ -9,8 +9,9 @@
   ],
   "author": "Google Inc.",
   "scripts": {
-    "lint": "eslint --fix lib/ tests/lib/unit",
-    "test-unit": "NODE_ENV=prod mocha ./tests/lib/unit/**/*.js"
+    "lint": "eslint --fix lib/ tests/lib/unit tests/lib/rules",
+    "test-unit": "NODE_ENV=prod mocha ./tests/lib/unit/**/*.js",
+    "test-rules": "NODE_ENV=prod mocha ./tests/lib/rules/*.js"
   },
   "dependencies": {
     "winston": "^3.2.1",
