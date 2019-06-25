@@ -81,8 +81,8 @@ app.intent('foo', (conv) => {
     conv.ask('hello');
   })\
 })`,
-    parserOptions: parserOptions,
-    errors: [err],
+      parserOptions: parserOptions,
+      errors: [err],
     },
     {
       code: `

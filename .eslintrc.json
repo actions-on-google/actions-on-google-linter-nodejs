@@ -9,6 +9,8 @@
   "globals": {
     "console": "readable",
     "require": "readable",
-    "module": "readable"
+    "module": "readable",
+    "process": "readable",
+    "__dirname": "readable"
   }
 }
