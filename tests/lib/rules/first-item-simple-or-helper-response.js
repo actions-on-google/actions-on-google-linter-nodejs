@@ -99,6 +99,12 @@ app.intent('foo', function(conv) {
 });
 `,
     },
+    {
+      code: `
+function foo(conv) {
+  conv.ask(new BasicCard({}));
+}`,
+    },
   ],
 
   invalid: [
@@ -111,9 +117,11 @@ conv.ask('Hello');
     },
     {
       code: `
-function foo() {
+const app = dialogflow();
+app.intent((conv) => {
   conv.ask(new BasicCard({}));
-}`,
+});`,
+      parserOptions: parserOptions,
       errors: [error],
     },
   ],
