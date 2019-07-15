@@ -1,7 +1,7 @@
 # The first item in webhook response must be a simple response, or a helper. (first-item-simple-or-helper-response)
 
 The first item in webhook response must be a simple response, or a helper.
-Please consult the official [docs](https://developers.google.com/actions/assistant/responses#rich_responses).
+Please consult the official [docs](https://developers.google.com/actions/assistant/responses/?utm_source=actions-on-google-linter-nodejs#rich_responses).
 
 ## Rule Details
 
@@ -40,5 +40,5 @@ As such, this is limited to intent handler functions (i.e. (conv) => {...}) decl
 
 ## Further Reading
 
-* Official Actions on Google responses [documentation](https://developers.google.com/actions/assistant/responses#rich_responses).
+* Official Actions on Google responses [documentation](https://developers.google.com/actions/assistant/responses/?utm_source=actions-on-google-linter-nodejs#rich_responses).
 * [Debugging Common Actions on Google Errors](https://medium.com/google-developers/debugging-common-actions-on-google-errors-7c8527378d27). See "Error handling with the client library" section.

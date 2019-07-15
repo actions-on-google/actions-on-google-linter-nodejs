@@ -37,4 +37,4 @@ Implementation finds AST nodes that correspond to an Actions on Google client li
 
 ## Further Reading
 
-* Official Actions on Google responses [documentation](https://developers.google.com/actions/assistant/responses#simple_response).
+* Official Actions on Google responses [documentation](https://developers.google.com/actions/assistant/responses/?utm_source=actions-on-google-linter-nodejs#simple_response).
