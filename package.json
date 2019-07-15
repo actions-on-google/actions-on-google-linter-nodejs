@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-actions-on-google",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Linter for Actions on Google response generation.",
   "main": "lib/index.js",
   "keywords": [
