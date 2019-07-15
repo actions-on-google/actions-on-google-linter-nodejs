@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-aog-linter",
+  "name": "eslint-plugin-actions-on-google",
   "version": "1.0.0",
   "description": "Linter for Actions on Google response generation.",
   "keywords": [
