@@ -52,7 +52,7 @@ Then configure the rules you want to use under the rules section. In the snippet
   * If intent handler uses a Promise, it must return it.
 * at-most-two-simple-responses
   * The response returned by Actions on Google fulfillment must have <=2 simple responses per turn.
-* first-item-simple-response-or-helper
+* first-item-simple-or-helper-response
   * The first item in webhook response must be a simple response, or a helper
 * must-return-response
   * The response returned by Actions on Google fulfillment must return a client library response.
