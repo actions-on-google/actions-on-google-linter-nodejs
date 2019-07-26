@@ -7,10 +7,10 @@
   "rules": {
   },
   "globals": {
-    "console": "readable",
-    "require": "readable",
-    "module": "readable",
-    "process": "readable",
-    "__dirname": "readable"
+    "console": "readonly",
+    "require": "readonly",
+    "module": "readonly",
+    "process": "readonly",
+    "__dirname": "readonly"
   }
 }
